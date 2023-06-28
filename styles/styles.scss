@@ -192,20 +192,6 @@ section {
 
 /* About */
 
-.intro-about{
-    padding-right: 5rem;
-    p{
-        line-height: 2rem;
-        padding: 1rem;
-        color: var(--color-grey-1);
-    }
-    h4{
-        font-size: 2rem;
-        text-transform: uppercase;
-    }
-
-}
-
 /** timeline **/
 
 .timeline-title{
@@ -279,7 +265,7 @@ section {
 }
 
 /* Portfolios */
-.port-text{
+.port-intro .certificates-intro{
     padding: 2rem 0;
     text-align: center;
 }
@@ -413,17 +399,6 @@ section {
         span{
             color: var(--color-secondary);
         }
-        .bg-text{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            color: var(--color-grey-5);
-            transition: all .4s ease-in-out;
-            z-index: -1; // to make the text appear in the background 
-            transform: translate(-50%, -50%);
-            font-weight: 800;
-            font-size: 6.3rem;
-        }
     }
 }
 
@@ -441,6 +416,8 @@ footer  {
         display: inline-block;
     }
     position: absolute;
+    margin-top: auto;
+    text-align: center;
     width: 100%;
     height: 3rem;
     bottom: 0;
